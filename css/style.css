@@ -639,22 +639,6 @@ footer {
     object-fit: cover;
 }
 
-@keyframes background-color-changer {
-    from {background-color: #e9e94a9a;}
-    to {background-color: #CEE7E6;}
-}
-
-@keyframes dissolve-in {
-    from {background-color: #ffff00;}
-    to {background-color: #CEE7E6;}
-}
-
-@keyframes text-dissolve-in {
-    from {color: #ffff00;}
-    to {color: #CEE7E6;}
-}
-
-
 @media only screen and (min-width: 768px){
     #mobile-screen-nav {
         display: none;
@@ -669,8 +653,6 @@ footer {
         padding-left: 5em;
         padding-right: 5em;
         margin-bottom: 5px;
-        animation-name: dissolve-in;
-        animation-duration: 3s;
     }
     
     .mia:hover {
@@ -746,11 +728,6 @@ footer {
         padding-bottom: 1px;
     }
 
-    .nav-anim{
-        animation-name: text-dissolve-in;
-        animation-duration: 3s;
-    }
-
     nav ul {
         flex-direction: row;
         gap: 40px;
@@ -800,24 +777,7 @@ footer {
     .ghp-grid-item {
         margin-bottom: 0px;
     }
-
-    #dp1-text {
-        animation-name: dissolve-in;
-        animation-duration: 3s;
-        background-color: #CEE7E6;
-    }
-
-    #ghp-text {
-        animation-name: dissolve-in;
-        animation-duration: 3s;
-        background-color: #CEE7E6;
-    }
-
-    #dp2-text {
-        animation-name: dissolve-in;
-        animation-duration: 3s;
-        background-color: #CEE7E6;
-    }
+    
 
     /* ABOUT PAGE CSS */
     
@@ -856,11 +816,6 @@ footer {
         margin-bottom: 50px;
         margin-top: 0px;
     } 
-
-    input[type=submit]:hover {
-        animation: background-color-changer 2s;
-        background-color: #CEE7E6;
-    }
 
     .form {
         margin: auto;
@@ -970,12 +925,6 @@ footer {
 
     .GHP-temporary-links-old {
         margin-bottom: 15px;
-    }
-
-    footer {
-        animation-name: dissolve-in;
-        animation-duration: 3s;
-        background-color: #CEE7E6;
     }
 
 }
@@ -1199,22 +1148,6 @@ footer {
 
     .not-flip-card {
         display: block;
-    }
-
-    .mia {
-        animation-name: none;
-    }
-
-    input[type=submit]:hover {
-        animation-name:none;
-    }
-
-    #dp1-text, #ghp-text, #dp2-text {
-        animation-name: none;
-    }
-
-    footer {
-        animation-name: none;
     }
 }
 
